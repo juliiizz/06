@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ /*slecciono tdoos los elementos y elimino sus padding y margin nativos*/
+            margin: 0;
+            padding: 0;
+        }
+
+        h1{
+            /*arriba = top - abajo = bottom - derecha = right - izquierda = left*/
+            border: 3px solid black; /*tamaño en pixeles - tipo de borde - color */
+
+            /*margen interior */
+            padding: 20px;
+
+            /*margen extereor*/
+            margin: 35px;
+        }    
+        .container{
+            display: flex;  /* el contenedor se mueve flexible */
+            justify-content: center; /* left - center - right */
+        }
+        .caja{
+           width: 100px; /*ancho*/
+           height: 100px; /*alto*/
+           background-color: black;
+           border: 30px solid red;
+    
+        }
+
+        footer{
+        border: 3px solid black; 
+        padding: 20px;
+        margin: 35px;
+        }    
+
+
+    </style>
+</head>
+<body>
+    <h1>  COLO COLO </h1>
+
+     <div class="container">
+        <div class="caja">
+
+        </div> 
+     </div>
+   
+
+    
+</body>
+</html>
